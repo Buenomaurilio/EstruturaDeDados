@@ -7,12 +7,23 @@ from random import randrange
 import math
 
 def returnLista(namber):
+    
     lista = []
+    #lista.sort()
     for i in range(namber):
-        a = randrange(-namber, namber)
-        lista.append(a)
-    print(f'Verifica evolucao lista interna: {lista}')    
+        #if namber < 1 and namber != 0:
+            #namber = namber *(-1)
+            a = randrange(-namber, namber)
+            lista.append(a)
+    print(f'Lista gerada na func exe_1: {lista}')
+    #print(f'Verifica evolucao lista interna: {lista}') 
+    lista.sort()   
     return lista
+
+
+""" x = returnLista(10)
+print(x)
+ """
 
 """ 
 2) Calcular o valor médio da lista criada na pergunta 1.\
@@ -49,7 +60,7 @@ a = 2\
 esquerda = [-3, 4]\
 direita = [0, 2, -1]
  """
-
+""" 
 def dividelista(lista, alA):
     esquerda = []
     direita = []
@@ -70,7 +81,7 @@ a = randrange(0, (n-1))
 print(f'Valor de A: {a}')
 j = dividelista(x, a)
 print(j)    
-
+ """
 
 
 
