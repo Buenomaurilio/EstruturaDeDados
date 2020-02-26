@@ -15,16 +15,17 @@ from random import*
             esq =  meio +1
     return print('não encontrou')
 
-aleatorio = randrange(1,30)
-n = 3 #randrange(10,110)
-print(n)
+aleatorio = 15 #randrange(0,30)
+print(f'numero aleatorio: {aleatorio}')
+n = 30 #randrange(-30,30)
+print(f'range da lista: {n}')
 lista = returnLista(n)
 print(lista)
 localizacao = buscaBinaria(lista,aleatorio)                    
-  """
+ """
 
 
- 
+
 #import exercicios_japeruano
 from random import randrange
 import exerciciosEstruturaDeDados
